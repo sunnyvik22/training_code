@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Небольшие образцы</title>
+  <link rel="stylesheet" type="text/css" href="style.css"> 
+ 
+ </head>
+ <body>
+  
+  <!--светофор -->
+  <div class="traffic-light">
+    <div class="circle red"></div>
+    <div class="circle yello"></div>
+    <div class="circle green"></div>    
+  </div>
+
+  <!--big-slmile -->
+  <div class="circle-big">
+    <div class="eyes left"></div>
+    <div class="eyes right"></div>
+    <div class="nose"></div> 
+    <div class="mouth"></div> 
+  </div>
+
+  <!--gradient -->
+  <div class="grad">
+    to top right
+  </div>
+
+  <!--adaptive background -->
+  <div class="belt">
+    <div class="pointer">
+      Дистанции огромного размера
+    </div>  
+  </div>
+
+<!-- таблица1 -->
+ <table>
+  <tr>
+    <td>7:00</td>
+    <td>7:30</td>
+    <td>8:00</td>
+  </tr>
+  <tr>
+    <td colspan="3">Телеканал "Доброе утро"</td>
+  </tr>
+   <td>Вести.ru</td>
+   <td><Большой спорт</td>
+   <td>Рейтинг Баженова</td>
+  </tr>
+  <tr>
+    <td>Мультфильмы</td>
+    <td colspan="2">Полезное утро</td>
+  </tr>
+ </table>
+
+ <!--таблица2 -->
+ <table>
+   <tr>
+     <td>яблоки</td>
+     <td rowspan="3">апельсины</td>
+     <td>персики</td>
+   </tr>
+   <tr>
+     <td>бананы</td>
+     <td rowspan="2">ананасы</td>
+   </tr>
+   <tr>
+     <td>авокадо</td>
+    
+   </tr>
+ </table>
+
+<!--форма заявки на работу -->
+ <div class="zoo">
+  <h1 class="header">Форма заявки на работу в зопарке</h1>
+  <p><i>Пожалуйста, заполните форму. Обязательные поля помечены <span>*</span></i></p>
+  <form class="" action="#" method="post">
+    <fieldset class="contact">
+      <legend>Контактная информация</legend><br>
+      <label>Имя <span>*</span><input type="text" name="user-name" required></label><br>
+      <label>Телефон<input type="tel" name="user-phone"></label><br>
+      <label>Email <span>*</span><input type="email" name="user-mail" required></label>
+    </fieldset>
+    <fieldset class="information">
+      <legend>Персональная информация</legend><br>
+      <label>Возраст <span>*</span><input type="number" name="user-age" min="0" max="100" 
+        step="1" required>
+      </label><br>
+      <label>Пол
+       <select class="gender">
+         <option>Женщина</option>
+         <option>Мужчина</option>
+       </select></label><br>
+      <label><p class="quality">Перечислите личные качества</p><textarea></textarea></label>
+    </fieldset>
+    <fieldset class="animal">
+      <legend>Выберите вааших любимых животных</legend><br>
+      <div class="wrapper1">
+        <label><input type="checkbox" name="choose"><span class="kind">Зебра</span></label>
+        <label><input type="checkbox" name="choose"><span class="kind">Кошак</span></label>
+        <label><input type="checkbox" name="choose"><span class="kind">Анаконда</span></label>
+        <label><input type="checkbox" name="choose"><span class="kind">Человек</span></label>
+       </div>
+       <div class="wrapper2">
+        <label><input type="checkbox" name="choose"><span class="kind">Слон</span></label>
+        <label><input type="checkbox" name="choose"><span class="kind">Антилопа</span></label>
+        <label><input type="checkbox" name="choose"><span class="kind">Голубь</span></label>
+        <label><input type="checkbox" name="choose"><span class="kind">Краб</span></label>
+      </div>
+    </fieldset>
+    <input type="submit" name="">
+  </form>
+ </div>
+
+<!-- Форма заказа "Сандали" -->
+<div class="order">
+  <h1 class="order-header">Форма заказа "Сандали"</h1>
+  <p class="order-promo">Хотите приобрести такие сандали, которых ни у кого нет? Закажите обувь у нас - и вам будут завидовать все окружающие!</p>
+  <form action="http://rightman.p.ht/lwd/contest.php" method="post" class="sandals">
+    <p class="order-promo">Сведения о заказчике:</p>
+     <label class="user">Имя<input type="text" name="name"></label><br>
+     <label class="user">Email<input type="email" name="email"></label><br>
+     <label class="user">Телефон<input type="tel" name="phone"></label><br>
+    <p class="order-user">Я хочу такие сандали, потому что...</p>
+    <textarea name="story" class="story" placeholder="Не более 300 символов..."></textarea>
+
+    <h2>Выберите дизайн сандалей:</h2>     
+    <fieldset class="design">
+      <legend>Характеристики:</legend>
+      <fieldset>
+        <legend class="sandal-color">Цвет<i>(выберите один пункт):</i></legend>
+          <label class="color"><input type="radio" name="color">Красный</label>
+          <label class="color"><input type="radio" name="color">Синий</label>
+          <label class="color"><input type="radio" name="color">Черный</label>
+          <label class="color silver"><input type="radio" name="color">Серебристый</label>
+      </fieldset>
+      <fieldset class="sandal-checkbox">
+         <legend class="sandal-features">Дополнительно<i>(выберите один или несколько пунктов):</i></legend>
+           <label class="features"><input type="checkbox" name="features[]">Глянцевые ободки</label>
+           <label class="features"><input type="checkbox" name="features[]" checked="active">Металлическая бляшка</label>
+           <label class="features"><input type="checkbox" name="features[]">Светящаяся подошва</label>
+           <label class="features player"><input type="checkbox" name="features[]">Мр3-проигрыватель</label>
+      </fieldset>
+      <fieldset>
+        <legend>Размер</legend>
+         <label class="size">Стандартные российские размеры:
+           <select name="size">
+            <option>33</option>
+            <option>34</option>
+            <option>35</option>
+            <option>36</option>
+            <option>37</option>
+            <option>38</option>
+            <option>39</option>
+            <option>40</option>
+            <option>41</option>
+            <option>42</option>
+            <option>43</option>
+           </select> 
+          </label>
+      </fieldset>
+    </fieldset>
+   <button type="submit" class="btn" name="btn">Заказать!</button>
+   <button type="reset" class="btn" name="btn">Сброс</button>
+ </form>
+</div>
+</body>
+</html>

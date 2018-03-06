@@ -1,0 +1,393 @@
+   body {
+    font: 0.8em Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+    background: #faeaea; 
+    color: #ffe; /* Цвет текста */
+   }
+   a { color: #008BCE; /* Цвет ссылок */ }
+
+
+   .traffic-light {
+    position: relative;
+    border: 2px solid black;
+    width: 100px;
+    height: 320px;
+    margin: auto;
+    margin-top: 20px;
+   }
+
+   .circle {
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 45px;
+   }
+   .red {
+    position: absolute;
+    top: 24px;
+    left: 8px; 
+    background-color: red;
+   }
+   .yello  {
+    position: absolute;
+    top: 118px;
+    left: 8px;
+    background-color: yellow;
+   }
+   .green {
+    position: absolute;
+    top: 212px;
+    left: 8px;
+    background-color: green;
+   }
+
+   .circle-big {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #5de6c7;
+    border-radius: 200px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+   }
+
+   .eyes {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 40px;
+   }
+
+   .left {
+    left: 80px;
+    top: 60px;
+   }
+
+   .right {
+    right: 80px;
+    top: 60px;
+   }
+
+   .nose {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background-color: #ffffff;
+    left: 170px;
+    top: 160px;
+
+   }
+
+   .mouth {
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    background-color: #ffffff;
+    left: 130px;
+    bottom: 80px;
+   }
+
+   .grad {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;    
+    text-align: center;
+    margin-bottom: 30px;
+    background: linear-gradient(10deg, purple 10%, crimson 30%, orangered 50%, gold 75%);
+   }
+
+   .belt {
+    box-sizing: border-box;
+    width: 100%;
+    height: 160px;
+    padding: 2%;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    background: black;
+   }
+
+   .pointer {
+    box-sizing: border-box;
+    position: relative;
+    max-width: 100%;
+    min-height: 80px;
+    max-height: 100%;
+    margin: auto;
+    color: #ffffff;
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #86bfe6; 
+    border: 5px solid #a3deed;
+
+   }
+   .pointer::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: -25px;
+    left: 45%;
+    background-color: #86bfe6; 
+    border: 5px solid #a3deed;
+    transform: rotate(45deg); 
+    border-bottom: transparent;
+    border-right: transparent;
+  }
+
+  table {
+    margin-top: 30px;
+    color: black;
+  }
+
+  td {
+    border: 1px solid black;
+  }
+
+.zoo {
+  color: black;
+  border: 2px solid black;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.header {
+  margin-top: 30px;
+  margin-left: 9%;
+}
+
+p {
+  margin-left: 9%;
+}
+
+span {
+  color: red;
+  font-size: bold;
+}
+
+.contact {
+
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  
+}
+
+.information {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  
+}
+
+.animal {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+  margin-left: 119px;
+  margin-bottom: 20px;
+  min-width: 230px;
+}
+
+input[type="tel"] {
+  box-sizing: border-box;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  min-width: 230px;
+
+}
+
+input[type="email"] {
+  box-sizing: border-box;
+  margin-left: 111px;
+  margin-bottom: 20px;
+  min-width: 230px;
+}
+
+input[type="number"] {
+  box-sizing: border-box;
+  margin-left: 95px;
+  margin-bottom: 20px;
+  min-width: 230px;
+}
+
+.gender {
+  box-sizing: border-box;
+  margin-left: 124px;
+  margin-bottom: 20px;
+  min-width: 230px;
+}
+
+.quality {
+  max-width: 100px;
+  margin-left: 0px;
+  float: left;
+}
+
+textarea {
+  margin-left: 50px;
+  margin-bottom: 20px;
+  height: 100px; 
+  resize: none;
+  min-width: 230px;
+}
+
+.wrapper1,
+.wrapper2 {
+  width: 70%;
+  margin-bottom: 12px;
+}
+
+input[type="checkbox"] {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.kind {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  width: 90px;
+  height: 18px;
+  color: black;
+}
+
+input[type="submit"] {
+  box-sizing: border-box;
+  margin-left: 9%;
+  margin-bottom: 20px;
+  width: 20%;
+  height: 30px;
+}
+
+.order {
+  width: 80%;
+  color: black;
+  border: 2px solid black;
+  margin: auto;
+  margin-left: 0;
+  margin-bottom: 50px;
+}
+
+.order-header {
+  margin: 5px;
+  margin-bottom: 15px;
+
+}
+
+.order-promo {
+  display: block;
+  margin: 5px;
+  width: 480px;
+  margin-bottom: 20px;
+}
+
+.user {
+  margin-left: 50px;
+}
+
+
+.user input[type="text"] {
+  margin-left: 30px;
+  margin-bottom: 0px;
+  min-width: 180px;
+  height: 25px;
+}
+
+.user input[type="email"] {
+  margin-left: 30px;
+  margin-bottom: 0px;
+  min-width: 180px;
+  height: 25px;
+}
+
+.user input[type="tel"] {
+  margin-left: 30px;
+  margin-bottom: 0px;
+  min-width: 180px;
+  height: 25px;
+
+}
+
+.order-user {
+  margin-left: 50px;
+  margin-bottom: 2px;
+}
+
+.story {
+  margin-left: 50px;
+  width: 400px;
+
+}
+
+h2 {
+  margin: 0px 5px 15px;
+}
+
+.design {
+  margin-top: 13px;
+  margin-left: 10px;
+  margin-right: 200px;
+  margin-bottom: 25px;
+}
+
+.sandal-color {
+  margin-bottom: 20px;
+ }
+
+
+.color {
+  display: block;
+  margin-left: 40px;.
+  margin-bottom: 3px;
+}
+
+.silver {
+  margin-bottom: 20px;
+}
+
+.sandal-checkbox {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sandal-features {
+  margin-bottom: 20px;
+}
+
+.features {
+  display: block;
+  margin-left: 40px;
+  margin-bottom: 3px;
+}
+
+.player {
+  margin-bottom: 20px;
+}
+
+.size {
+  display: block;
+  margin: 20px 0;
+}
+
+button.btn[type="submit"]{
+  height: 25px;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+
+}
+button.btn[type="reset"]{
+  height: 25px;
+  width: 80px;
+  margin-left: 5px;
+
+}
